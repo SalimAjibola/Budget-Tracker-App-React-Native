@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "budget-planner-2.0",
+    "slug": "sam-budget",
+    "version": "1.0.0",
+    "scheme": "budget-planner-schema",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.salim_ajibola.sambudget"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bdf0e159-4989-4886-af3f-a028b97d2d8e"
+      }
+    },
+    "owner": "salim_ajibola"
+  }
+}
